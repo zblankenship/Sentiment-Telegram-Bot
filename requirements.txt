@@ -1,2 +1,9 @@
 python-dotnev
 python-telegram-bot
+paralleldots
+math
+sys
+re
+time
+os
+logging
