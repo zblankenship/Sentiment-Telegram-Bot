@@ -14,6 +14,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 #end boring boiler plate stuff
 
 def reply_to_message(update, context):
+    message = sentiment_check(update.message.text)
     context.bot.send_message(chat_id=update.message.chat_id,
     reply_to_message_id=update.message.message_id,
     text = sentiment_check(update.message.text))
