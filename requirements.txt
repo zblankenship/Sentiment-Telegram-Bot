@@ -1,9 +1,4 @@
-python-dotnev
-python-telegram-bot
-paralleldots
-math
-sys
-re
-time
-os
-logging
+python-dotenv >= 0.15.0
+python-telegram-bot >= 13.1
+paralleldots >= 3.2.14
+requests >= 2.25.1
