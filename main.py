@@ -8,7 +8,7 @@ from parallel import sentiment_check
 #boring boiler plate stuff
 load_dotenv('key.env')
 token = os.getenv('token')
-updater = Updater(token= '1668967654:AAFxG8PvIYnsVAF2KNrUI32_whGMyC_-V18', use_context = True)
+updater = Updater(token = token, use_context = True)
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 #end boring boiler plate stuff
